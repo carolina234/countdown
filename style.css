@@ -1,16 +1,19 @@
+*{
+    margin: 0%;
 
-
+}
 #top{
-    margin-top: -9px;
+    margin-top: 0px;
     left: 0px;
 }
 #rocket{
     position: absolute;
+    width: 500px;
     left: 740px;
     top: 134px;
 }
 #bottom{
-    margin-top: 325px;
+    margin-top: 270px;
     left: 0px;
     object-fit: cover;
     object-position: 36% 100%;
@@ -34,12 +37,27 @@ text-transform: uppercase;
 color: #6C63FF;
 }
 
+#countdown{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 108px;
+    
+    color: #4D4C59;
+    position: absolute;
+    left: 136px;
+    top: 158px;;
+
+}
+
+
 .dias {
     position: absolute;
     width: 30px;
     height: 21px;
     left: 152px;
-    top: 190px;
+    top: 151px;
     
     font-family: Poppins;
     font-style: normal;
@@ -53,25 +71,13 @@ color: #6C63FF;
      
  
 }
-.day{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 72px;
-    line-height: 108px;
-    
-    color: #4D4C59;
-    position: absolute;
-    left: 104px;
-    top: 158px;;
 
-}
 .horas {
     position: absolute;
 width: 41px;
 height: 21px;
-left: 273px;
-top: 190px;
+left: 261px;
+top: 153px;
 
 font-family: Poppins;
 font-style: normal;
@@ -84,27 +90,14 @@ text-transform: capitalize;
 
 color: #C8C8C8;
 }
-.time {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 72px;
-    line-height: 108px;
-    
-    color: #4D4C59;
-    position: absolute;
-    left: 246px;
-    top: 158px;
 
-    
-}
 
 .minutos{
     position: absolute;
     width: 54px;
     height: 21px;
-    left: 405px;
-    top: 190px;
+    left: 365px;
+    top: 153px;
     
     font-family: Poppins;
     font-style: normal;
@@ -116,24 +109,13 @@ color: #C8C8C8;
     
     color: #C8C8C8;
 }
-.min{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 72px;
-    line-height: 108px;
-    
-    color: #4D4C59;
-    position: absolute;
-    left: 390px;
-    top: 162px;
-}
+
 .segundos {
     position: absolute;
 width: 70px;
 height: 21px;
-left: 536px;
-top: 190px;
+left: 487px;
+top: 153px;
 
 font-family: Poppins;
 font-style: normal;
@@ -146,25 +128,13 @@ text-transform: capitalize;
 color: #C8C8C8;
 
 }
-.seg{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 72px;
-    line-height: 108px;
-    
-    color: #4D4C59;
-    
-position: absolute;
-left: 525px;
-top: 158px;
-}
+
 .inscreva {
     position: absolute;
 width: 349px;
 height: 21px;
 left: 196px;
-top: 345px;
+top: 320px;
 
 font-family: Poppins;
 font-style: normal;
@@ -179,7 +149,7 @@ position: absolute;
 width: 160px;
 height: 40px;
 left: 290px;
-top: 400px;
+top: 365px;
 border-radius: 10px ;
 background-color: #6C63FF;
 border: none;
@@ -189,4 +159,8 @@ font-weight: normal;
 font-size: 16px;
 line-height: 24px;
 color: #FFFFFF;
+transition-duration: 0.6s;
+}
+.button:hover {
+    background-color:#8e89f5
 }
