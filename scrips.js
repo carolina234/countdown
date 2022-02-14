@@ -1,4 +1,3 @@
-
 // data do lançamento: 11/03/2022
 const dataDoLancamento = new Date(2022, 02, 02)
 
@@ -25,6 +24,11 @@ function fazerContagemRegressiva() {
     minutos = "00";
     segundos = "00";
     clearInterval(ana)
+
+
+
+
+    
   } else {
 
     // converter milissegundos para o seu respectivo tempo
@@ -45,10 +49,9 @@ function fazerContagemRegressiva() {
     2,
     '0'
   )} : ${minutos.padStart(2, '0')} : ${segundos.padStart(2, '0')}`
-}
-
-var ana = setInterval(fazerContagemRegressiva, 1000)
 
 
   
-    
+}
+
+var ana = setInterval(fazerContagemRegressiva, 1000)
